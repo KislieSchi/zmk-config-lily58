@@ -174,9 +174,9 @@
          * ┌─────┬─────┬─────┬─────┬─────┬─────┐                     ┌─────┬─────┬─────┬─────┬─────┬─────┐
          * │     │     │     │     │     │     │                     │     │     │     │     │     │     │
          * ├─────┼─────┼─────┼─────┼─────┼─────┤                     ├─────┼─────┼─────┼─────┼─────┼─────┤
-         * │     │ ⌘Z  │ ⌘X  │ ⌘C  │ ⌘V  │ ⌘Y  │                     │PgUp │Home │  ↑  │ End │     │     │
+         * │     │ ⌘Z  │ ⌘X  │ ⌘C  │ ⌘V  │ ⌘Y  │                     │Home │PgDn │PgUp │ End │     │     │
          * ├─────┼─────┼─────┼─────┼─────┼─────┤                     ├─────┼─────┼─────┼─────┼─────┼─────┤
-         * │     │ Shft│Ctrl │ Alt │ Cmd │     │                     │PgDn │  ←  │  ↓  │  →  │     │     │
+         * │     │ Shft│Ctrl │ Alt │ Cmd │     │                     │  ←  │  ↓  │  ↑  │  →  │     │     │
          * ├─────┼─────┼─────┼─────┼─────┼─────┼─────┐         ┌─────┼─────┼─────┼─────┼─────┼─────┼─────┤
          * │     │     │     │     │     │     │     │         │     │ ⌘←  │ ⌥←  │ ⌥→  │ ⌘→  │     │     │
          * └─────┴─────┴─────┼─────┼─────┼─────┼─────┤         ├─────┼─────┼─────┼─────┼─────┴─────┴─────┘
@@ -189,8 +189,8 @@
         nav_layer {
             bindings = <
 &trans     &trans         &trans         &trans         &trans         &trans                        &trans    &trans               &trans            &trans              &trans     &trans
-&trans     &kp LG(Z)      &kp LG(X)      &kp LG(C)      &kp LG(V)      &kp LG(Y)                     &kp PG_UP &kp HOME             &kp UP            &kp END             &trans     &trans
-&trans     &kp LSHFT      &kp LCTRL      &kp LALT       &kp LGUI       &trans                        &kp PG_DN &kp LEFT             &kp DOWN          &kp RIGHT           &trans     &trans
+&trans     &kp LG(Z)      &kp LG(X)      &kp LG(C)      &kp LG(V)      &kp LG(Y)                     &kp HOME  &kp PG_DN            &kp PG_UP         &kp END             &trans     &trans
+&trans     &kp LSHFT      &kp LCTRL      &kp LALT       &kp LGUI       &trans                        &kp LEFT  &kp DOWN             &kp UP            &kp RIGHT           &trans     &trans
 &trans     &trans         &trans         &trans         &trans         &trans  &trans      &trans    &kp LG(LEFT)  &kp LA(LEFT)  &kp LA(RIGHT)  &kp LG(RIGHT)  &trans  &trans
                                          &trans         &trans         &trans  &trans      &trans    &trans    &trans               &trans
             >;
